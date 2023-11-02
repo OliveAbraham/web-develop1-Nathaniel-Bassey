@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: grey;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid grey
+}
+
+.main-nav li {
+    padding: 0% 5%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(images/Header\ Background.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.minister-name {
+    text-align: center;
+    margin: 0%;
+    font-size: 4em;
+    font-family: "georgia";
+    font-weight: normal;
+    color: white;
+}
+
+.minister-name-larger {
+    font-size: 5em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0% 1.5em;
+}
+.section-header {
+    font-family: georgia;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(12, 1, 1);
+}
+
+.about-minister-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.main-footer {
+    background-color: rgb(83, 114, 255);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.button {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.button-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid rgb(83, 114, 255);
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.button-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.button-play {
+    display: block;
+    margin: 0 auto;
+    color: rgb(83, 114, 255);
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
